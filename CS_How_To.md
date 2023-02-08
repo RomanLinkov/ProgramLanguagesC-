@@ -51,3 +51,14 @@ Console.WriteLine(username);
 }
 
 ToLower() мешяет все буквы на нижний регистр
+
+while(условие продолжения)
+{
+    набор действий
+}
+int count = 0;
+while(count < 100)
+{
+    Набор действий 
+    count = count +1
+}
