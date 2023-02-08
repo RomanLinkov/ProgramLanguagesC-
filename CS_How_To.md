@@ -38,3 +38,16 @@ ReadLine(); Считать строку из терминала
 new Random().Next(min,max)
 даст случайное целое число от min до max-1
 [min,max) или [min,max-1]
+
+## Ветвление
+if(username.ToLower() == "маша")
+{
+    Console.WriteLine("Ура, это же МАША!");
+}
+else
+{
+Console.Write("Привет, ");
+Console.WriteLine(username);
+}
+
+ToLower() мешяет все буквы на нижний регистр
