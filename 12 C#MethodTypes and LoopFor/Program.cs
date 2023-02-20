@@ -52,7 +52,7 @@ Console.WriteLine();
 string Method5(int count, string c)
 {
     string result=string.Empty;
-    for (int i=0; i<count; i++)
+    for (int i=0; i<=count; i++)
     {
         result = result + c;
     }
@@ -60,3 +60,12 @@ string Method5(int count, string c)
 }
 Method2(Method5(5, "-Метод5-"));
 Console.WriteLine();
+
+for (int i=2; i<10; i++)
+{
+    for (int j=2; j<10;j++)
+    {
+        Console.WriteLine($"{i} x {j} = {i*j}");
+    }
+    Console.WriteLine();
+}
